@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-Sure! Here’s a detailed `README.md` file for your Salesforce Subscription Management project. This file provides an overview of the project, installation instructions, usage guidelines, and additional information.
 
 ---
 
@@ -107,7 +105,4 @@ We welcome contributions to enhance the project. To contribute:
 ## Contact
 
 For any questions or feedback, please reach out to [devisv25@gmail.com].
-=======
-# salesforce-subscription-management
-A streamlined subscription management solution built on Salesforce. It integrates with payment gateways to automate billing, manages subscriptions, and provides real-time insights through custom dashboards and reports. Designed to enhance operational efficiency and track subscriber activity effortlessly.
->>>>>>> 2a8ba07ec49a85da0bccabac393dc6aa07ec8b44
+
