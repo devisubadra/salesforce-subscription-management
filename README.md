@@ -1,5 +1,4 @@
 
----
 
 # Salesforce Subscription Management System
 
@@ -81,6 +80,11 @@ Follow these steps to set up and deploy the Salesforce Subscription Management S
 
 - **Salesforce DX Configuration**: Project setup and metadata configuration.
   - `sfdx-project.json`: Defines project structure and API version.
+
+## Architecture Diagram
+ 
+![image](https://github.com/user-attachments/assets/b88d255c-4e47-4da0-a947-0ed84390f91e)
+
 
 ## Contributing
 
