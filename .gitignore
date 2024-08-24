@@ -1,0 +1,7 @@
+# Salesforce metadata
+*.log
+*.tmp
+*.out
+
+# IDE files
+.vscode/

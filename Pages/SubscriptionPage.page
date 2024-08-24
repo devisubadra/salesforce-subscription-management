@@ -1,0 +1,18 @@
+<apex:page controller="SubscriptionController">
+    <h1>Subscription Management</h1>
+    <apex:form>
+        <apex:pageBlock title="Manage Subscriptions">
+            <apex:pageBlockTable value="{!subscriptions}" var="sub">
+                <apex:column value="{!sub.Name}"/>
+                <apex:column value="{!sub.Start_Date__c}"/>
+                <apex:column value="{!sub.End_Date__c}"/>
+                <apex:column value="{!sub.Status__c}"/>
+                <apex:column value="{!sub.Amount__c}"/>
+                <apex:column>
+                    <apex:commandButton value="Activate" action="{!updateSubscription(sub.Id, 'Active')}" reRender="subscriptionsTable"/>
+                    <apex:commandButton value="Deactivate" action="{!updateSubscription(sub.Id, 'Inactive')}" reRender="subscriptionsTable"/>
+                </apex:column>
+            </apex:pageBlockTable>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
